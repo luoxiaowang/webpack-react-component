@@ -11,11 +11,13 @@ history.__v2_compatible__ = true;
 
 import App from './components/Main';
 import TodoList from './components/todolist/index';
+import Flux from './components/flux/MyButtonController';
 
 ReactDOM.render(
   <Router history={history}>
     <Route path="/" component={App}></Route>
     <Route path="todolist" component={TodoList}></Route>
+    <Route path="flux" component={Flux}></Route>
   </Router>,
   document.getElementById('app')
 );

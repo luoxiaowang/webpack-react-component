@@ -13,6 +13,7 @@ class AppComponent extends React.Component {
         <div className="menu">
           <ul>
             <li><Link to="todolist">To do list</Link></li>
+            <li><Link to="flux">flux demo</Link></li>
           </ul>
         </div>
       </div>
