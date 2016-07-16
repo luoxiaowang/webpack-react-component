@@ -251,3 +251,4 @@ var MyButton = function(props) {
 module.exports = MyButton;
 九、致谢
 本文受到了Andrew Ray 的文章《Flux For Stupid People》的启发。
+http://www.ruanyifeng.com/blog/2016/01/flux.html
